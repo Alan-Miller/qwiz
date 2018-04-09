@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "quiz_id": 1,
+    "quiz_name": "ES6",
+    "prompt": "What are the differences between var and let?",
+    "choices": [
+      {
+        "content": "var is function-scoped and let is block-scoped",
+        "is_correct": true
+      },
+      {
+        "content": "var is block-scoped and let is function-scoped",
+        "is_correct": false
+      },
+      {
+        "content": "let is ES6 and var is not",
+        "is_correct": true
+      },
+      {
+        "content": "var is global and let is local",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "quiz_id": 1,
+    "quiz_name": "ES6",
+    "prompt": "What are the differences between arrow functions and non-arrow functions?",
+    "choices": [
+      {
+        "content": "Arrow functions can be anonymous and non arrow functions cannot",
+        "is_correct": false
+      },
+      {
+        "content": "Only arrow functions inherit the value of this from the parent concontent",
+        "is_correct": true
+      },
+      {
+        "content": "Only non-arrow functions use the function keyword",
+        "is_correct": true
+      },
+      {
+        "content": "Only arrow functions can return a value without using the return keyword",
+        "is_correct": true
+      }
+    ]
+  }
+]
